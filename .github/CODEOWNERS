@@ -1,0 +1,9 @@
+# CODEOWNERS — Define os responsáveis obrigatórios por revisar e aprovar
+# qualquer Pull Request que altere arquivos neste repositório.
+#
+# Formato: <padrão de arquivo>   <@usuário ou @org/time>
+#
+# O caractere "*" cobre todos os arquivos do repositório.
+# A aprovação de @edsonleme é OBRIGATÓRIA em qualquer PR.
+
+*   @edsonleme
