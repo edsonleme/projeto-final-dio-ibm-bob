@@ -1,0 +1,212 @@
+# =============================================================
+#  .gitignore — projeto-final-dio-ibm-bob
+#  Genérico, cobrindo as principais linguagens e ferramentas.
+# =============================================================
+
+# -------------------------------------------------------------
+# Sistema Operacional
+# -------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# -------------------------------------------------------------
+# Editores e IDEs
+# -------------------------------------------------------------
+# VSCode
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Vim / Neovim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+\#*\#
+.\#*
+
+# -------------------------------------------------------------
+# Node.js / JavaScript / TypeScript
+# -------------------------------------------------------------
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# -------------------------------------------------------------
+# Python
+# -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.Python
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# -------------------------------------------------------------
+# Java / Kotlin / Gradle / Maven
+# -------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+hs_err_pid*
+
+# -------------------------------------------------------------
+# Go
+# -------------------------------------------------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# -------------------------------------------------------------
+# Ruby / Rails
+# -------------------------------------------------------------
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+.byebug_history
+
+# -------------------------------------------------------------
+# PHP / Composer
+# -------------------------------------------------------------
+composer.lock
+
+# -------------------------------------------------------------
+# Rust
+# -------------------------------------------------------------
+Cargo.lock
+
+# -------------------------------------------------------------
+# .NET / C#
+# -------------------------------------------------------------
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# -------------------------------------------------------------
+# ⚠️  Variáveis de ambiente e segredos — NUNCA versionar
+# -------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# -------------------------------------------------------------
+# Logs e arquivos temporários
+# -------------------------------------------------------------
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.pid
+
+# -------------------------------------------------------------
+# Arquivos comprimidos
+# -------------------------------------------------------------
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# -------------------------------------------------------------
+# Cobertura de testes e relatórios
+# -------------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+junit.xml
+
+# -------------------------------------------------------------
+# Terraform
+# -------------------------------------------------------------
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# -------------------------------------------------------------
+# Banco de dados local
+# -------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
