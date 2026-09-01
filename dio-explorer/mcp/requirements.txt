@@ -1,0 +1,20 @@
+# DIO Explorer MCP — dependências
+# Instale com:  pip install -r requirements.txt
+
+# --- MCP SDK (protocolo e transporte) ---
+mcp>=2.1.1
+
+# --- Validação de dados ---
+pydantic>=2.13.5
+
+# --- HTTP/SSE (necessário apenas para modo --http) ---
+uvicorn>=0.52.4
+starlette>=1.6.0
+sse-starlette>=3.4.8
+
+# --- Criptografia (autenticação segura) ---
+cryptography>=44.0.0
+PyJWT>=2.13.0
+
+# --- Utilitários ---
+anyio>=4.14.2

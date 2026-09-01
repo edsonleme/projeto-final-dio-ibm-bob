@@ -1,0 +1,799 @@
+{
+  "trails": [
+    {
+      "id": 1,
+      "nome": "Fundamentos de Python para Data Science",
+      "home": "https://www.dio.me/trilhas/fundamentos-python-data-science",
+      "tecnologia": "Python",
+      "nivel": "Iniciante",
+      "modulos": 8,
+      "xp_total": 3200,
+      "badges": ["Python Starter", "Data Explorer", "Code Rookie"],
+      "promocoes": { "ativa": true, "desconto_percent": 30, "validade": "2025-08-31" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Pandas", "data": "2025-07-15", "horario": "19:00" },
+        { "titulo": "Visualização com Matplotlib", "data": "2025-07-22", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Java Completo",
+      "home": "https://www.dio.me/trilhas/desenvolvedor-java-completo",
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "modulos": 12,
+      "xp_total": 5800,
+      "badges": ["Java Developer", "OOP Master", "Spring Boot Hero"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Spring Boot na Prática", "data": "2025-07-18", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Engenharia de Dados com Apache Spark",
+      "home": "https://www.dio.me/trilhas/engenharia-dados-spark",
+      "tecnologia": "Apache Spark",
+      "nivel": "Avançado",
+      "modulos": 15,
+      "xp_total": 9500,
+      "badges": ["Data Engineer", "Spark Wizard", "Big Data Champion"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-15" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Spark Streaming ao Vivo", "data": "2025-07-25", "horario": "20:00" },
+        { "titulo": "Delta Lake na Prática", "data": "2025-08-01", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Frontend com React e TypeScript",
+      "home": "https://www.dio.me/trilhas/frontend-react-typescript",
+      "tecnologia": "React / TypeScript",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 4600,
+      "badges": ["React Developer", "TypeScript Pro", "UI Craftsman"],
+      "promocoes": { "ativa": true, "desconto_percent": 15, "validade": "2025-08-10" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Hooks Avançados", "data": "2025-07-17", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Cloud Native com AWS",
+      "home": "https://www.dio.me/trilhas/cloud-native-aws",
+      "tecnologia": "AWS",
+      "nivel": "Avançado",
+      "modulos": 18,
+      "xp_total": 12000,
+      "badges": ["AWS Practitioner", "Cloud Architect", "Serverless Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Deploy com ECS e Fargate", "data": "2025-07-20", "horario": "18:00" },
+        { "titulo": "Lambda Functions na Prática", "data": "2025-07-27", "horario": "18:00" }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "DevOps e CI/CD com GitHub Actions",
+      "home": "https://www.dio.me/trilhas/devops-cicd-github-actions",
+      "tecnologia": "DevOps / GitHub Actions",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 4200,
+      "badges": ["DevOps Engineer", "CI/CD Master", "Pipeline Builder"],
+      "promocoes": { "ativa": true, "desconto_percent": 25, "validade": "2025-08-20" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Workflows Avançados no GitHub Actions", "data": "2025-07-19", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Inteligência Artificial com TensorFlow",
+      "home": "https://www.dio.me/trilhas/ia-tensorflow",
+      "tecnologia": "TensorFlow",
+      "nivel": "Avançado",
+      "modulos": 14,
+      "xp_total": 8800,
+      "badges": ["AI Practitioner", "TensorFlow Expert", "Neural Network Ninja"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Redes Neurais Convolucionais ao Vivo", "data": "2025-07-24", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Segurança da Informação e Ethical Hacking",
+      "home": "https://www.dio.me/trilhas/seguranca-ethical-hacking",
+      "tecnologia": "Cybersecurity",
+      "nivel": "Avançado",
+      "modulos": 16,
+      "xp_total": 10200,
+      "badges": ["Security Analyst", "Ethical Hacker", "Pentester Pro"],
+      "promocoes": { "ativa": true, "desconto_percent": 10, "validade": "2025-10-01" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "CTF ao Vivo - Desafio Hacking", "data": "2025-07-26", "horario": "20:30" },
+        { "titulo": "OWASP Top 10 na Prática", "data": "2025-08-02", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Desenvolvimento Mobile com Flutter",
+      "home": "https://www.dio.me/trilhas/mobile-flutter",
+      "tecnologia": "Flutter / Dart",
+      "nivel": "Intermediário",
+      "modulos": 11,
+      "xp_total": 5200,
+      "badges": ["Flutter Developer", "Mobile Engineer", "Dart Master"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Estado com Riverpod", "data": "2025-07-21", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Banco de Dados SQL e NoSQL",
+      "home": "https://www.dio.me/trilhas/banco-dados-sql-nosql",
+      "tecnologia": "SQL / MongoDB",
+      "nivel": "Iniciante",
+      "modulos": 7,
+      "xp_total": 2800,
+      "badges": ["Database Starter", "SQL Querist", "NoSQL Explorer"],
+      "promocoes": { "ativa": true, "desconto_percent": 40, "validade": "2025-07-31" },
+      "vitalicio": true,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 11,
+      "nome": "Blockchain e Web3 para Desenvolvedores",
+      "home": "https://www.dio.me/trilhas/blockchain-web3",
+      "tecnologia": "Solidity / Web3",
+      "nivel": "Avançado",
+      "modulos": 13,
+      "xp_total": 8400,
+      "badges": ["Blockchain Pioneer", "Smart Contract Dev", "Web3 Architect"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Deploy de Smart Contracts na Prática", "data": "2025-07-28", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Machine Learning com Scikit-learn",
+      "home": "https://www.dio.me/trilhas/machine-learning-scikit-learn",
+      "tecnologia": "Python / Scikit-learn",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 4900,
+      "badges": ["ML Engineer", "Model Trainer", "Feature Engineer"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-01" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Cross-Validation ao Vivo", "data": "2025-07-23", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Kubernetes e Orquestração de Containers",
+      "home": "https://www.dio.me/trilhas/kubernetes-containers",
+      "tecnologia": "Kubernetes / Docker",
+      "nivel": "Avançado",
+      "modulos": 17,
+      "xp_total": 11000,
+      "badges": ["Container Master", "Kubernetes Operator", "Cloud Orchestrator"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Helm Charts na Prática", "data": "2025-07-30", "horario": "20:00" },
+        { "titulo": "Kubernetes Avançado - Autoscaling", "data": "2025-08-06", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Angular para Aplicações Enterprise",
+      "home": "https://www.dio.me/trilhas/angular-enterprise",
+      "tecnologia": "Angular / TypeScript",
+      "nivel": "Avançado",
+      "modulos": 12,
+      "xp_total": 6200,
+      "badges": ["Angular Architect", "Enterprise Dev", "RxJS Expert"],
+      "promocoes": { "ativa": true, "desconto_percent": 15, "validade": "2025-08-15" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Microfrontends com Angular", "data": "2025-07-16", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Go Lang para Back-end de Alta Performance",
+      "home": "https://www.dio.me/trilhas/golang-backend",
+      "tecnologia": "Go",
+      "nivel": "Avançado",
+      "modulos": 14,
+      "xp_total": 8000,
+      "badges": ["Gopher", "Go Backend Dev", "High Performance Coder"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "APIs REST com Gin Framework", "data": "2025-08-04", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Programação C# e .NET Core",
+      "home": "https://www.dio.me/trilhas/csharp-dotnet-core",
+      "tecnologia": "C# / .NET",
+      "nivel": "Intermediário",
+      "modulos": 11,
+      "xp_total": 5400,
+      "badges": ["C# Developer", ".NET Specialist", "Microsoft Stack Pro"],
+      "promocoes": { "ativa": true, "desconto_percent": 30, "validade": "2025-08-25" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Blazor na Prática", "data": "2025-07-22", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Vue.js 3 do Zero ao Deploy",
+      "home": "https://www.dio.me/trilhas/vuejs3-zero-deploy",
+      "tecnologia": "Vue.js",
+      "nivel": "Iniciante",
+      "modulos": 8,
+      "xp_total": 3500,
+      "badges": ["Vue Beginner", "Component Builder", "Vuex Master"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Vue Router Avançado", "data": "2025-07-29", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Rust para Sistemas e WebAssembly",
+      "home": "https://www.dio.me/trilhas/rust-sistemas-wasm",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "modulos": 16,
+      "xp_total": 10800,
+      "badges": ["Rustacean", "WASM Pioneer", "Systems Programmer"],
+      "promocoes": { "ativa": true, "desconto_percent": 10, "validade": "2025-10-31" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Ownership e Borrow Checker", "data": "2025-08-07", "horario": "20:00" },
+        { "titulo": "WebAssembly com Rust", "data": "2025-08-14", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Power BI para Análise de Dados",
+      "home": "https://www.dio.me/trilhas/power-bi-analise-dados",
+      "tecnologia": "Power BI",
+      "nivel": "Iniciante",
+      "modulos": 6,
+      "xp_total": 2400,
+      "badges": ["BI Analyst", "Dashboard Creator", "DAX Starter"],
+      "promocoes": { "ativa": true, "desconto_percent": 50, "validade": "2025-07-31" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "DAX Avançado ao Vivo", "data": "2025-07-18", "horario": "18:30" }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Node.js e Microsserviços",
+      "home": "https://www.dio.me/trilhas/nodejs-microsservicos",
+      "tecnologia": "Node.js",
+      "nivel": "Intermediário",
+      "modulos": 13,
+      "xp_total": 6000,
+      "badges": ["Node Developer", "Microservice Architect", "Event-Driven Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "gRPC com Node.js", "data": "2025-07-31", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "iOS com Swift e SwiftUI",
+      "home": "https://www.dio.me/trilhas/ios-swift-swiftui",
+      "tecnologia": "Swift / SwiftUI",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 5000,
+      "badges": ["iOS Developer", "Swift Coder", "Apple Ecosystem Pro"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "SwiftUI Avançado - Animações", "data": "2025-08-05", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "LLMs e Engenharia de Prompt",
+      "home": "https://www.dio.me/trilhas/llms-engenharia-prompt",
+      "tecnologia": "IA Generativa / LLMs",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 4400,
+      "badges": ["Prompt Engineer", "LLM Explorer", "GenAI Practitioner"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-30" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "RAG na Prática com LangChain", "data": "2025-07-24", "horario": "20:00" },
+        { "titulo": "Fine-tuning de LLMs Open Source", "data": "2025-08-08", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Azure para Arquitetos de Soluções",
+      "home": "https://www.dio.me/trilhas/azure-arquitetos",
+      "tecnologia": "Microsoft Azure",
+      "nivel": "Avançado",
+      "modulos": 20,
+      "xp_total": 14000,
+      "badges": ["Azure Fundamentals", "Azure Architect", "Cloud Solutions Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Arquitetura Event-Driven no Azure", "data": "2025-07-25", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Google Cloud Platform Essentials",
+      "home": "https://www.dio.me/trilhas/gcp-essentials",
+      "tecnologia": "Google Cloud Platform",
+      "nivel": "Iniciante",
+      "modulos": 8,
+      "xp_total": 3600,
+      "badges": ["GCP Explorer", "Cloud Beginner", "BigQuery User"],
+      "promocoes": { "ativa": true, "desconto_percent": 35, "validade": "2025-08-30" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "BigQuery ao Vivo", "data": "2025-07-17", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "PHP e Laravel para Web",
+      "home": "https://www.dio.me/trilhas/php-laravel",
+      "tecnologia": "PHP / Laravel",
+      "nivel": "Iniciante",
+      "modulos": 9,
+      "xp_total": 3800,
+      "badges": ["PHP Developer", "Laravel Artisan", "Web Backend Starter"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 26,
+      "nome": "Kotlin para Android",
+      "home": "https://www.dio.me/trilhas/kotlin-android",
+      "tecnologia": "Kotlin / Android",
+      "nivel": "Intermediário",
+      "modulos": 11,
+      "xp_total": 5100,
+      "badges": ["Android Developer", "Kotlin Specialist", "Jetpack Compose Pro"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-10" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Jetpack Compose ao Vivo", "data": "2025-08-01", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Arquitetura de Software e Design Patterns",
+      "home": "https://www.dio.me/trilhas/arquitetura-design-patterns",
+      "tecnologia": "Arquitetura de Software",
+      "nivel": "Avançado",
+      "modulos": 15,
+      "xp_total": 9200,
+      "badges": ["Software Architect", "Design Patterns Master", "Clean Code Champion"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "SOLID na Prática", "data": "2025-07-26", "horario": "19:00" },
+        { "titulo": "Domain-Driven Design ao Vivo", "data": "2025-08-09", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Processamento de Linguagem Natural (NLP)",
+      "home": "https://www.dio.me/trilhas/nlp-processamento-linguagem",
+      "tecnologia": "Python / NLP",
+      "nivel": "Avançado",
+      "modulos": 13,
+      "xp_total": 8200,
+      "badges": ["NLP Engineer", "Text Analyst", "Transformer Expert"],
+      "promocoes": { "ativa": true, "desconto_percent": 15, "validade": "2025-09-20" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Hugging Face na Prática", "data": "2025-07-23", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Infraestrutura como Código com Terraform",
+      "home": "https://www.dio.me/trilhas/iac-terraform",
+      "tecnologia": "Terraform",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 5600,
+      "badges": ["IaC Practitioner", "Terraform Pro", "Cloud Automator"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Terraform com AWS ao Vivo", "data": "2025-08-03", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Unity para Desenvolvimento de Games",
+      "home": "https://www.dio.me/trilhas/unity-game-dev",
+      "tecnologia": "Unity / C#",
+      "nivel": "Iniciante",
+      "modulos": 10,
+      "xp_total": 4000,
+      "badges": ["Game Developer", "Unity Beginner", "2D Game Creator"],
+      "promocoes": { "ativa": true, "desconto_percent": 25, "validade": "2025-08-20" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Física em Jogos 2D", "data": "2025-07-20", "horario": "15:00" }
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "Análise de Dados com R",
+      "home": "https://www.dio.me/trilhas/analise-dados-r",
+      "tecnologia": "R",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 4100,
+      "badges": ["R Analyst", "Statistical Coder", "ggplot2 Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": false,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 32,
+      "nome": "Scala para Big Data",
+      "home": "https://www.dio.me/trilhas/scala-big-data",
+      "tecnologia": "Scala / Apache Spark",
+      "nivel": "Avançado",
+      "modulos": 14,
+      "xp_total": 9000,
+      "badges": ["Scala Developer", "Big Data Expert", "Spark Scala Champion"],
+      "promocoes": { "ativa": true, "desconto_percent": 10, "validade": "2025-10-15" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Spark com Scala ao Vivo", "data": "2025-08-10", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 33,
+      "nome": "Acessibilidade Web e UX Inclusiva",
+      "home": "https://www.dio.me/trilhas/acessibilidade-ux-inclusiva",
+      "tecnologia": "HTML / CSS / UX",
+      "nivel": "Iniciante",
+      "modulos": 6,
+      "xp_total": 2200,
+      "badges": ["Accessibility Advocate", "UX Starter", "Inclusive Designer"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "WCAG 2.1 na Prática", "data": "2025-07-22", "horario": "18:00" }
+      ]
+    },
+    {
+      "id": 34,
+      "nome": "Visão Computacional com OpenCV",
+      "home": "https://www.dio.me/trilhas/visao-computacional-opencv",
+      "tecnologia": "Python / OpenCV",
+      "nivel": "Intermediário",
+      "modulos": 11,
+      "xp_total": 5500,
+      "badges": ["Computer Vision Dev", "OpenCV Expert", "Image Processing Pro"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-05" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Detecção de Objetos ao Vivo", "data": "2025-07-27", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 35,
+      "nome": "Elixir e Phoenix para Back-end Funcional",
+      "home": "https://www.dio.me/trilhas/elixir-phoenix",
+      "tecnologia": "Elixir / Phoenix",
+      "nivel": "Avançado",
+      "modulos": 12,
+      "xp_total": 7400,
+      "badges": ["Elixir Developer", "Phoenix Framework Pro", "Functional Programmer"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "LiveView com Phoenix", "data": "2025-08-12", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 36,
+      "nome": "Automação de Testes com Cypress",
+      "home": "https://www.dio.me/trilhas/automacao-testes-cypress",
+      "tecnologia": "Cypress / JavaScript",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 3900,
+      "badges": ["QA Engineer", "Test Automator", "Cypress Champion"],
+      "promocoes": { "ativa": true, "desconto_percent": 30, "validade": "2025-08-18" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Testes E2E com Cypress", "data": "2025-07-19", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 37,
+      "nome": "Next.js Full Stack",
+      "home": "https://www.dio.me/trilhas/nextjs-full-stack",
+      "tecnologia": "Next.js / React",
+      "nivel": "Intermediário",
+      "modulos": 12,
+      "xp_total": 5800,
+      "badges": ["Next.js Developer", "Full Stack Engineer", "SSR Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Server Actions no Next.js 15", "data": "2025-07-28", "horario": "19:00" },
+        { "titulo": "App Router na Prática", "data": "2025-08-11", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 38,
+      "nome": "Fundamentos de Programação com C",
+      "home": "https://www.dio.me/trilhas/fundamentos-programacao-c",
+      "tecnologia": "C",
+      "nivel": "Iniciante",
+      "modulos": 7,
+      "xp_total": 2600,
+      "badges": ["C Programmer", "Low Level Coder", "Algorithm Starter"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-30" },
+      "vitalicio": true,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 39,
+      "nome": "Gestão de Projetos Ágeis com Scrum e Kanban",
+      "home": "https://www.dio.me/trilhas/agile-scrum-kanban",
+      "tecnologia": "Metodologias Ágeis",
+      "nivel": "Iniciante",
+      "modulos": 6,
+      "xp_total": 2000,
+      "badges": ["Agile Practitioner", "Scrum Master Candidate", "Kanban Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Sprint Planning ao Vivo", "data": "2025-07-21", "horario": "18:00" }
+      ]
+    },
+    {
+      "id": 40,
+      "nome": "Redis e Arquitetura de Cache",
+      "home": "https://www.dio.me/trilhas/redis-arquitetura-cache",
+      "tecnologia": "Redis",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 3700,
+      "badges": ["Cache Expert", "Redis Developer", "Performance Optimizer"],
+      "promocoes": { "ativa": true, "desconto_percent": 15, "validade": "2025-09-15" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Redis Avançado - Pub/Sub", "data": "2025-08-03", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 41,
+      "nome": "Apache Kafka para Streaming de Dados",
+      "home": "https://www.dio.me/trilhas/kafka-streaming-dados",
+      "tecnologia": "Apache Kafka",
+      "nivel": "Avançado",
+      "modulos": 14,
+      "xp_total": 8600,
+      "badges": ["Kafka Expert", "Streaming Engineer", "Event Streaming Champion"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Kafka Streams na Prática", "data": "2025-07-30", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 42,
+      "nome": "WordPress e Desenvolvimento de Sites",
+      "home": "https://www.dio.me/trilhas/wordpress-desenvolvimento-sites",
+      "tecnologia": "WordPress / PHP",
+      "nivel": "Iniciante",
+      "modulos": 5,
+      "xp_total": 1800,
+      "badges": ["WordPress Creator", "CMS Starter", "Site Builder"],
+      "promocoes": { "ativa": true, "desconto_percent": 40, "validade": "2025-07-31" },
+      "vitalicio": true,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 43,
+      "nome": "Inteligência Artificial com IBM Watson",
+      "home": "https://www.dio.me/trilhas/ia-ibm-watson",
+      "tecnologia": "IBM Watson",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 5000,
+      "badges": ["Watson Developer", "IBM AI Expert", "Chatbot Builder"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Watson Assistant na Prática", "data": "2025-07-24", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 44,
+      "nome": "GraphQL e APIs Modernas",
+      "home": "https://www.dio.me/trilhas/graphql-apis-modernas",
+      "tecnologia": "GraphQL / Apollo",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 4300,
+      "badges": ["GraphQL Developer", "API Architect", "Apollo Expert"],
+      "promocoes": { "ativa": true, "desconto_percent": 25, "validade": "2025-08-25" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Subscriptions com GraphQL", "data": "2025-08-07", "horario": "19:00" }
+      ]
+    },
+    {
+      "id": 45,
+      "nome": "Supabase e Backend como Serviço",
+      "home": "https://www.dio.me/trilhas/supabase-baas",
+      "tecnologia": "Supabase / PostgreSQL",
+      "nivel": "Iniciante",
+      "modulos": 7,
+      "xp_total": 3000,
+      "badges": ["Supabase Explorer", "BaaS Developer", "PostgreSQL Starter"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Auth com Supabase ao Vivo", "data": "2025-07-26", "horario": "18:30" }
+      ]
+    },
+    {
+      "id": 46,
+      "nome": "Excel Avançado e VBA para Automação",
+      "home": "https://www.dio.me/trilhas/excel-avancado-vba",
+      "tecnologia": "Excel / VBA",
+      "nivel": "Iniciante",
+      "modulos": 6,
+      "xp_total": 2100,
+      "badges": ["Excel Pro", "VBA Automator", "Spreadsheet Master"],
+      "promocoes": { "ativa": true, "desconto_percent": 45, "validade": "2025-07-31" },
+      "vitalicio": true,
+      "lives_ao_vivo": []
+    },
+    {
+      "id": 47,
+      "nome": "Cybersecurity com Splunk e SIEM",
+      "home": "https://www.dio.me/trilhas/cybersecurity-splunk-siem",
+      "tecnologia": "Splunk / SIEM",
+      "nivel": "Avançado",
+      "modulos": 15,
+      "xp_total": 9800,
+      "badges": ["Splunk User", "SIEM Analyst", "SOC Engineer"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Detecção de Ameaças com Splunk", "data": "2025-08-09", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 48,
+      "nome": "Python para Finanças e Quant",
+      "home": "https://www.dio.me/trilhas/python-financas-quant",
+      "tecnologia": "Python / Quant Finance",
+      "nivel": "Avançado",
+      "modulos": 13,
+      "xp_total": 8100,
+      "badges": ["Quant Developer", "Finance Coder", "Algo Trader"],
+      "promocoes": { "ativa": true, "desconto_percent": 10, "validade": "2025-10-01" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Backtesting de Estratégias ao Vivo", "data": "2025-07-25", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 49,
+      "nome": "Desenvolvimento de APIs REST com FastAPI",
+      "home": "https://www.dio.me/trilhas/fastapi-apis-rest",
+      "tecnologia": "Python / FastAPI",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 4500,
+      "badges": ["FastAPI Developer", "REST Champion", "Async Python Pro"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "FastAPI + PostgreSQL ao Vivo", "data": "2025-07-31", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 50,
+      "nome": "Embedded Systems com C e Arduino",
+      "home": "https://www.dio.me/trilhas/embedded-c-arduino",
+      "tecnologia": "C / Arduino",
+      "nivel": "Iniciante",
+      "modulos": 8,
+      "xp_total": 3100,
+      "badges": ["Maker", "Arduino Starter", "Embedded Developer"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-30" },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "IoT com Arduino ao Vivo", "data": "2025-08-05", "horario": "15:00" }
+      ]
+    },
+    {
+      "id": 51,
+      "nome": "MLOps e Ciclo de Vida de Modelos de IA",
+      "home": "https://www.dio.me/trilhas/mlops-ciclo-modelos-ia",
+      "tecnologia": "MLOps / Python",
+      "nivel": "Avançado",
+      "modulos": 16,
+      "xp_total": 10500,
+      "badges": ["MLOps Engineer", "Model Deployer", "AI Lifecycle Champion"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "MLflow na Prática", "data": "2025-08-06", "horario": "20:00" },
+        { "titulo": "Monitoramento de Modelos ao Vivo", "data": "2025-08-13", "horario": "20:00" }
+      ]
+    },
+    {
+      "id": 52,
+      "nome": "Svelte e SvelteKit do Zero ao Deploy",
+      "home": "https://www.dio.me/trilhas/svelte-sveltekit",
+      "tecnologia": "Svelte / SvelteKit",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 3800,
+      "badges": ["Svelte Developer", "SSR Expert", "Modern JS Framework Pro"],
+      "promocoes": { "ativa": true, "desconto_percent": 20, "validade": "2025-09-10" },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "SvelteKit + Prisma ao Vivo", "data": "2025-08-14", "horario": "19:30" }
+      ]
+    },
+    {
+      "id": 53,
+      "nome": "Data Lakehouse com Databricks",
+      "home": "https://www.dio.me/trilhas/data-lakehouse-databricks",
+      "tecnologia": "Databricks",
+      "nivel": "Avançado",
+      "modulos": 18,
+      "xp_total": 13000,
+      "badges": ["Databricks Professional", "Lakehouse Engineer", "Unity Catalog Expert"],
+      "promocoes": { "ativa": false, "desconto_percent": 0, "validade": null },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Medallion Architecture ao Vivo", "data": "2025-08-08", "horario": "20:00" }
+      ]
+    }
+  ],
+  "total_trilhas": 53,
+  "ultima_atualizacao": "2025-07-14"
+}

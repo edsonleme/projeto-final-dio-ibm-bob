@@ -1,0 +1,170 @@
+======================================================================
+  DIO EXPLORER — RELATÓRIO DE TESTES UNITÁRIOS
+  Gerado em: 2026-09-01 15:40:26
+======================================================================
+
+COMANDOS TESTADOS
+  /trilha  — busca de trilhas por tecnologia (ex.: Java)
+  /desafio — geração de desafio por tecnologia e nível
+  /certificado — geração de certificado fictício de conclusão
+
+META DE COBERTURA: >= 70 %
+
+======================================================================
+SAÍDA DO PYTEST
+======================================================================
+
+============================= test session starts =============================
+collecting ... collected 82 items
+
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_retorna_dict PASSED [  1%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_nome_aluno_no_certificado PASSED [  2%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_tecnologia_no_certificado PASSED [  3%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_nome_trilha_preenchido PASSED [  4%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_nivel_preenchido PASSED [  6%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_modulos_positivo PASSED [  7%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_xp_total_positivo PASSED [  8%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_badges_e_lista_nao_vazia PASSED [  9%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_data_formato_dd_mm_aaaa PASSED [ 10%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_data_e_hoje PASSED [ 12%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_codigo_formato_dio_id_ano_sufixo PASSED [ 13%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_codigo_sufixo_maiusculo PASSED [ 14%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_campos_obrigatorios_presentes PASSED [ 15%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_busca_case_insensitive PASSED [ 17%]
+src/tests/test_certificado.py::TestGerarCertificadoSucesso::test_nome_aluno_com_espacos_extras_e_normalizado PASSED [ 18%]
+src/tests/test_certificado.py::TestGerarCertificadoErros::test_tecnologia_inexistente_levanta_value_error PASSED [ 19%]
+src/tests/test_certificado.py::TestGerarCertificadoErros::test_nome_vazio_levanta_value_error PASSED [ 20%]
+src/tests/test_certificado.py::TestGerarCertificadoErros::test_nome_apenas_espacos_levanta_value_error PASSED [ 21%]
+src/tests/test_certificado.py::TestGerarCertificadoErros::test_mensagem_erro_lista_tecnologias_disponiveis PASSED [ 23%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_retorna_string PASSED [ 24%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_nome_aluno PASSED [ 25%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_nome_trilha PASSED [ 26%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_tecnologia PASSED [ 28%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_nivel PASSED [ 29%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_codigo_certificado PASSED [ 30%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_data PASSED [ 31%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_todos_os_badges PASSED [ 32%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_titulo_certificado PASSED [ 34%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_assinatura_ficticia PASSED [ 35%]
+src/tests/test_certificado.py::TestRenderizarCertificadoMd::test_contem_url_verificacao PASSED [ 36%]
+src/tests/test_certificado.py::TestFluxoCompleto::test_fluxo_trilha_desafio_certificado PASSED [ 37%]
+src/tests/test_desafio.py::TestValidarNivel::test_iniciante_valido PASSED [ 39%]
+src/tests/test_desafio.py::TestValidarNivel::test_intermediario_valido PASSED [ 40%]
+src/tests/test_desafio.py::TestValidarNivel::test_avancado_valido PASSED [ 41%]
+src/tests/test_desafio.py::TestValidarNivel::test_avancado_sem_acento_valido PASSED [ 42%]
+src/tests/test_desafio.py::TestValidarNivel::test_case_insensitive_iniciante PASSED [ 43%]
+src/tests/test_desafio.py::TestValidarNivel::test_case_insensitive_intermediario PASSED [ 45%]
+src/tests/test_desafio.py::TestValidarNivel::test_nivel_invalido_retorna_false PASSED [ 46%]
+src/tests/test_desafio.py::TestValidarNivel::test_nivel_vazio_retorna_false PASSED [ 47%]
+src/tests/test_desafio.py::TestValidarNivel::test_nivel_numero_retorna_false PASSED [ 48%]
+src/tests/test_desafio.py::TestValidarNivel::test_nivel_com_espaco_invalido PASSED [ 50%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_xp_iniciante_dentro_da_faixa PASSED [ 51%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_xp_intermediario_dentro_da_faixa PASSED [ 52%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_xp_avancado_dentro_da_faixa PASSED [ 53%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_xp_e_inteiro PASSED [ 54%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_nivel_invalido_levanta_value_error PASSED [ 56%]
+src/tests/test_desafio.py::TestCalcularXpDesafio::test_seed_deterministica_retorna_mesmo_valor PASSED [ 57%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_intermediario_retorna_dict PASSED [ 58%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_trilha_encontrada PASSED [ 59%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_tecnologia_no_resultado PASSED [ 60%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_nivel_no_resultado PASSED [ 62%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_xp_positivo PASSED [ 63%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_xp_dentro_da_faixa_intermediario PASSED [ 64%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_tempo_estimado_presente PASSED [ 65%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_java_tempo_estimado_intermediario PASSED [ 67%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_tecnologia_inexistente_trilha_nao_encontrada PASSED [ 68%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_nivel_invalido_levanta_value_error PASSED [ 69%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_iniciante_tempo_correto PASSED [ 70%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_avancado_tempo_correto PASSED [ 71%]
+src/tests/test_desafio.py::TestGerarDesafio::test_desafio_campos_obrigatorios_presentes PASSED [ 73%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_retorna_lista_nao_vazia PASSED [ 74%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_retorna_apenas_trilhas_java PASSED [ 75%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_case_insensitive_java PASSED [ 76%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_campos_obrigatorios_presentes PASSED [ 78%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_nivel_intermediario PASSED [ 79%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_xp_total_positivo PASSED [ 80%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_modulos_positivo PASSED [ 81%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_badges_e_lista PASSED [ 82%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_java_home_e_url_valida PASSED [ 84%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_python_retorna_resultado PASSED [ 85%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_aws_retorna_resultado PASSED [ 86%]
+src/tests/test_trilha.py::TestBuscarTrilhasEncontradas::test_busca_parcial_retorna_resultado PASSED [ 87%]
+src/tests/test_trilha.py::TestBuscarTrilhasNaoEncontradas::test_tecnologia_inexistente_retorna_lista_vazia PASSED [ 89%]
+src/tests/test_trilha.py::TestBuscarTrilhasNaoEncontradas::test_tecnologia_com_espacos_extras_retorna_lista_vazia PASSED [ 90%]
+src/tests/test_trilha.py::TestBuscarTrilhasNaoEncontradas::test_tecnologia_numerica_retorna_lista_vazia PASSED [ 91%]
+src/tests/test_trilha.py::TestBuscarTrilhasEntradaInvalida::test_tecnologia_vazia_levanta_value_error PASSED [ 92%]
+src/tests/test_trilha.py::TestBuscarTrilhasEntradaInvalida::test_tecnologia_somente_espacos_levanta_value_error PASSED [ 93%]
+src/tests/test_trilha.py::TestListarTecnologias::test_retorna_lista_nao_vazia PASSED [ 95%]
+src/tests/test_trilha.py::TestListarTecnologias::test_retorna_lista_de_strings PASSED [ 96%]
+src/tests/test_trilha.py::TestListarTecnologias::test_sem_duplicatas PASSED [ 97%]
+src/tests/test_trilha.py::TestListarTecnologias::test_java_esta_na_lista PASSED [ 98%]
+src/tests/test_trilha.py::TestListarTecnologias::test_lista_esta_ordenada PASSED [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.7-final-0 _______________
+
+Name                            Stmts   Miss  Cover   Missing
+-------------------------------------------------------------
+src\dio_explorer.py                55      0   100%
+src\tests\__init__.py               0      0   100%
+src\tests\test_certificado.py     138      0   100%
+src\tests\test_desafio.py          93      0   100%
+src\tests\test_trilha.py           83      0   100%
+-------------------------------------------------------------
+TOTAL                             369      0   100%
+Required test coverage of 70% reached. Total coverage: 100.00%
+============================= 82 passed in 0.30s ==============================
+
+
+======================================================================
+RESULTADO FINAL
+======================================================================
+Código de saída: 0
+Status: ✅  PASSOU — cobertura >= 70 %
+======================================================================
+
+======================================================================
+FLUXO COMPLETO EXECUTADO — ALUNO: João Silva | TECNOLOGIA: Java
+======================================================================
+
+PASSO 1 — /trilha Java
+  Trilha encontrada : Desenvolvedor Java Completo
+  Tecnologia        : Java
+  Nível             : Intermediário
+  Módulos           : 12
+  XP Total          : 5800 XP
+  Home              : https://www.dio.me/trilhas/desenvolvedor-java-completo
+  Badges            : Java Developer, OOP Master, Spring Boot Hero
+  Arquivo gerado    : (exibição via comando /trilha no Bob)
+
+PASSO 2 — /desafio Java Intermediário
+  Enunciado         : Serviço de processamento de transações bancárias em Java
+  Nível validado    : Intermediário ✅
+  XP do desafio     : 450 XP
+  Tempo estimado    : 30–60 min
+  Arquivo gerado    : dio-explorer/docs/desafio-Joao-Silva-Java-Intermediario.md
+
+PASSO 3 — /certificado "Joao Silva" Java
+  Nome do aluno     : Joao Silva
+  Trilha concluída  : Desenvolvedor Java Completo
+  Código emitido    : DIO-2-2026-M7ESG5
+  Data de emissão   : 01/09/2026
+  XP obtido         : 5800 XP
+  Badges            : Java Developer, OOP Master, Spring Boot Hero
+  Arquivo gerado    : dio-explorer/docs/certificados-emitidos/certificado-Joao-Silva.md
+
+======================================================================
+RESUMO DA SUITE DE TESTES
+======================================================================
+  Total de testes   : 82
+  Passaram          : 82
+  Falharam          : 0
+  Cobertura         : 100% (meta: 70%)
+  Status            : ✅ APROVADO
+
+  Distribuição por arquivo:
+    test_certificado.py  — 32 testes  (fluxo /certificado)
+    test_desafio.py      — 29 testes  (fluxo /desafio)
+    test_trilha.py       — 21 testes  (fluxo /trilha)
+
+======================================================================

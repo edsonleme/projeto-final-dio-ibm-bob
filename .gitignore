@@ -210,3 +210,8 @@ crash.log
 *.sqlite
 *.sqlite3
 *.db
+
+# -------------------------------------------------------------
+# Artefatos exportados pelo IBM Bob (one-pagers gerados no chat)
+# -------------------------------------------------------------
+dio-explorer-ibm-bob-*.html
